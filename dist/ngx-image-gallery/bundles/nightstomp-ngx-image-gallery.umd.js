@@ -1,7 +1,7 @@
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('tslib'), require('@angular/core'), require('@angular/common'), require('lodash'), require('@angular/platform-browser')) :
-    typeof define === 'function' && define.amd ? define('@web-aid-kit/ngx-image-gallery', ['exports', 'tslib', '@angular/core', '@angular/common', 'lodash', '@angular/platform-browser'], factory) :
-    (global = global || self, factory((global['web-aid-kit'] = global['web-aid-kit'] || {}, global['web-aid-kit']['ngx-image-gallery'] = {}), global.tslib, global.ng.core, global.ng.common, global.lodash, global.ng.platformBrowser));
+    typeof define === 'function' && define.amd ? define('@nightstomp/ngx-image-gallery', ['exports', 'tslib', '@angular/core', '@angular/common', 'lodash', '@angular/platform-browser'], factory) :
+    (global = global || self, factory((global.nightstomp = global.nightstomp || {}, global.nightstomp['ngx-image-gallery'] = {}), global.tslib, global.ng.core, global.ng.common, global.lodash, global.ng.platformBrowser));
 }(this, (function (exports, tslib, core, common, lodash, platformBrowser) { 'use strict';
 
     // key codes to react
@@ -469,4 +469,4 @@
     Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
-//# sourceMappingURL=web-aid-kit-ngx-image-gallery.umd.js.map
+//# sourceMappingURL=nightstomp-ngx-image-gallery.umd.js.map

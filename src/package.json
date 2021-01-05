@@ -1,10 +1,10 @@
 {
-  "private": true,
-  "name": "@web-aid-kit/ngx-image-gallery",
-  "version": "0.0.0",
+  "private": false,
+  "name": "@nightstomp/ngx-image-gallery",
+  "version": "2.0.0",
   "scripts": {
     "build": "ng build ngx-image-gallery --prod",
-    "publish": "cd ../dist/ngx-image-gallery && npm publish"
+    "publish": "cd ../dist/ngx-image-gallery && npm publish --access public"
   },
   "dependencies": {
     "@angular/animations": "~9.0.7",
@@ -43,5 +43,9 @@
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
     "typescript": "~3.7.5"
-  }
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

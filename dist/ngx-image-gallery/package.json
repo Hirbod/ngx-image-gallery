@@ -1,5 +1,6 @@
 {
-  "name": "@web-aid-kit/ngx-image-gallery",
+  "private": false,
+  "name": "@nightstomp/ngx-image-gallery",
   "version": "v2.0.0",
   "peerDependencies": {
     "@angular/common": "^9.0.7",
@@ -8,14 +9,14 @@
     "lodash": "^4.17.15",
     "tslib": "^1.10.0"
   },
-  "main": "bundles/web-aid-kit-ngx-image-gallery.umd.js",
-  "module": "fesm5/web-aid-kit-ngx-image-gallery.js",
-  "es2015": "fesm2015/web-aid-kit-ngx-image-gallery.js",
-  "esm5": "esm5/web-aid-kit-ngx-image-gallery.js",
-  "esm2015": "esm2015/web-aid-kit-ngx-image-gallery.js",
-  "fesm5": "fesm5/web-aid-kit-ngx-image-gallery.js",
-  "fesm2015": "fesm2015/web-aid-kit-ngx-image-gallery.js",
-  "typings": "web-aid-kit-ngx-image-gallery.d.ts",
-  "metadata": "web-aid-kit-ngx-image-gallery.metadata.json",
+  "main": "bundles/nightstomp-ngx-image-gallery.umd.js",
+  "module": "fesm5/nightstomp-ngx-image-gallery.js",
+  "es2015": "fesm2015/nightstomp-ngx-image-gallery.js",
+  "esm5": "esm5/nightstomp-ngx-image-gallery.js",
+  "esm2015": "esm2015/nightstomp-ngx-image-gallery.js",
+  "fesm5": "fesm5/nightstomp-ngx-image-gallery.js",
+  "fesm2015": "fesm2015/nightstomp-ngx-image-gallery.js",
+  "typings": "nightstomp-ngx-image-gallery.d.ts",
+  "metadata": "nightstomp-ngx-image-gallery.metadata.json",
   "sideEffects": false
 }

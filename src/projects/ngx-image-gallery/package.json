@@ -1,5 +1,6 @@
 {
-  "name": "@web-aid-kit/ngx-image-gallery",
+  "private": false,
+  "name": "@nightstomp/ngx-image-gallery",
   "version": "v2.0.0",
   "peerDependencies": {
     "@angular/common": "^9.0.7",
