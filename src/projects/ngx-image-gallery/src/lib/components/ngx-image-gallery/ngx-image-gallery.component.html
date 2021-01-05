@@ -42,8 +42,8 @@
              *ngIf="conf.showImageTitle && !loading && activeImage && activeImage.title"
              [style.paddingBottom]="conf.showThumbnails ? '0px' : '30px'"
              [class.dark]="conf.inline"
-        >{{ activeImage.title }}
-        </div>
+             [innerHTML]="activeImage.title"
+        ></div>
 
         <div #thumbnails class="thumbnails" *ngIf="conf.showThumbnails">
             <div class="thumbnails-scroller" [style.marginLeft]="thumbnailsScrollerLeftMargin">
